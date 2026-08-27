@@ -1,0 +1,26 @@
+window {
+  background-color: #1B211C;
+  border: 2px solid #D9B96C;
+  border-radius: 10px;
+  color: #E3DFC8;
+}
+
+image {
+  color: #D9B96C;
+}
+
+progressbar,
+trough {
+  background-color: #232B22;
+  border-radius: 6px;
+  min-height: 10px;
+}
+
+progress {
+  background-color: #A3C283;
+  border-radius: 6px;
+}
+
+label {
+  color: #E3DFC8;
+}
