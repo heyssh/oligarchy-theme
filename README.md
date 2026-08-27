@@ -1,10 +1,15 @@
-# Omarchy Oligarchy Theme
+# Oligarchy Theme
 
 A weathered, propaganda-poster palette for [Omarchy](https://omarchy.org) — deep teal-green
 backgrounds, aged cream text, and a rust-orange accent, with an olive/lime green for
 "money" highlights. Inspired by a vintage industrial poster aesthetic.
 
-## Palette (v2 — smoother, modern)
+<img width="1920" height="1080" alt="screenshot-2026-08-27_18-35-32" src="https://github.com/user-attachments/assets/7e12b455-99db-408c-9703-569ef5c99c9c" />
+<img width="1920" height="1080" alt="screenshot-2026-08-27_18-35-22" src="https://github.com/user-attachments/assets/d28360ab-671c-4bec-97c5-2db4b2bfa943" />
+
+
+
+## Palette
 
 Desaturated and softened vs. the original poster colors: a near-black moss-charcoal
 background, warm parchment foreground, and a muted moss-green / soft-gold accent
@@ -35,43 +40,15 @@ neon feel.
 ## Installation
 
 ```
-omarchy-theme-install https://github.com/<you>/omarchy-oligarchy-theme
+omarchy-theme-install https://github.com/heyssh/oligarchy-theme
 ```
-
-Or manually, copy each file into place:
-
-```
-cp alacritty.toml   ~/.config/alacritty/alacritty.toml
-cp ghostty.conf     ~/.config/ghostty/config
-cp kitty.conf       ~/.config/kitty/kitty.conf
-cp hyprland.conf    ~/.config/hypr/oligarchy.conf   # source = from your main config
-cp hyprlock.conf    ~/.config/hypr/hyprlock.conf
-cp mako.ini         ~/.config/mako/config
-cp waybar.css       ~/.config/waybar/style.css
-cp walker.css       ~/.config/walker/style.css
-cp swayosd.css      ~/.config/swayosd/style.css
-cp btop.theme       ~/.config/btop/themes/oligarchy.theme
-mkdir -p ~/.config/nvim/colors && cp neovim.lua ~/.config/nvim/colors/oligarchy.lua
-```
-
-Then in Neovim: `:colorscheme oligarchy`, and in btop: `Esc → o → t → oligarchy`.
-
-## Included configurations
-
-- Alacritty (`alacritty.toml`)
-- Ghostty (`ghostty.conf`)
-- Kitty (`kitty.conf`)
-- Hyprland (`hyprland.conf`, `hyprlock.conf`)
-- Mako (`mako.ini`)
-- Neovim (`neovim.lua`)
-- btop (`btop.theme`)
-- Waybar (`waybar.css`)
-- Walker (`walker.css`)
-- SwayOSD (`swayosd.css`)
-- Icon theme pointer (`icons.theme`)
 
 ## Backgrounds
 
 This theme doesn't ship a generated wallpaper — drop your own "Oligarchy" poster art
 into a `backgrounds/` folder (matching the aspect ratio of your monitor) and Omarchy
 will pick it up automatically.
+
+<img width="2048" height="1152" alt="oligarchy-4" src="https://github.com/user-attachments/assets/78728f45-9a5c-4c8a-acfe-6276ea11251c" />
+<img width="2048" height="1364" alt="oligarchy-5" src="https://github.com/user-attachments/assets/e71af0fe-1139-47da-9c69-4dcf17be94c0" />
+<img width="1672" height="941" alt="ChatGPT Image Aug 27, 2026, 04_51_12 PM" src="https://github.com/user-attachments/assets/48ffba4e-0718-477f-97ae-25bd3b662c24" />
